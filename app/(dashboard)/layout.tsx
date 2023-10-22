@@ -1,7 +1,7 @@
-import Navbar from "@/components/Navbar";
 import { Sidebar } from "@/components/sidebar";
 import { checkSubscription } from "@/lib/subscription";
 import { getApiLimitCount } from "@/lib/api-limit";
+import Navbar from "@/components/navbar";
 
 export default async function DashboardLayout({
     children
